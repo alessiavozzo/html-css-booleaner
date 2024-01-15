@@ -3,6 +3,8 @@
     margin: 0;
 }
 
+/* Header layout */
+
 #site_header{
     height: 150px;
     background-color: #4EA0FF;
@@ -29,3 +31,26 @@ header span{
     left: 15%;
 }
 
+/* Title */
+
+h1{
+    font-size: 50px;
+    margin-top: 1%;
+}
+
+.details{
+    font-size: 18px;
+    margin-bottom: 1%;
+}
+
+#booleaner{
+    color: #55BDEB;
+}
+
+#date{
+    font-size: 14px;
+}
+
+.notes{
+    font-size: 14px;
+}
