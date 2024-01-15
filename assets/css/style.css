@@ -33,9 +33,18 @@ header span{
 
 /* Title */
 
+#site_main{
+    margin: 1%;
+}
+
+ul{
+    padding: 1%;
+}
+
 h1{
     font-size: 50px;
     margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 .details{
@@ -51,6 +60,43 @@ h1{
     font-size: 14px;
 }
 
+/* Pics */
+
 .notes{
     font-size: 14px;
+}
+
+/* Article */
+
+article, p, ul{
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.highlight{
+    background-color: yellow;
+}
+
+/* Table */
+
+table{
+    border-collapse: collapse;
+} 
+
+thead{
+    background-color: #20A9E5; 
+    color: white;
+    text-align: left;   
+}
+
+.left, .center{
+    width: 25%;
+}
+
+.right{
+    width: 50%;
+}
+
+.blue_row{
+    background-color: #B1E5F2;
 }
