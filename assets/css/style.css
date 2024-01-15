@@ -68,7 +68,7 @@ h1{
 
 /* Article */
 
-article, p, ul{
+.article, p, ul{
     margin-top: 2%;
     margin-bottom: 1%;
 }
@@ -99,4 +99,35 @@ thead{
 
 .blue_row{
     background-color: #B1E5F2;
+}
+
+/* Footer */
+
+#site_footer{
+    margin: 1%;
+}
+
+h4, .more_info{
+    margin-bottom: 1%;
+}
+
+h4{
+    color: #949494;
+}
+
+.more_info{
+    width: 312px;
+    height: 208px;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 1%;
+}
+
+.pic_monitor{
+    background-image: url(../img/monitor.jpg);
+}
+
+.pic_graph{
+    background-image: url(../img/graph.jpg);
 }
